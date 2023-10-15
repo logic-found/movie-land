@@ -10,7 +10,7 @@ export default function Footer(){
   return (
     <footer className="footer">
       <ContentWrapper className="contentWrapper">
-        Hy There! <br/><br/>
+        <strong>Hy There!</strong> <br/><br/>
         <div className="infoText">
           "I'm a web wizard crafting websites and diving into the world of DevOps. With a passion for building new things and transforming ideas into reality." <br/>
            <strong>"Let's connect and make internet cooler place together!"</strong>
