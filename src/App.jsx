@@ -8,6 +8,7 @@ const Homepage = lazy(() => import("./pages/Homepage/Homepage"));
 const SearchResult = lazy(() => import("./pages/SearchResult/SearchResult"));
 const Details = lazy(() => import("./pages/Details/Details"));
 const Explore = lazy(() => import("./pages/Explore/Explore"));
+const PageNotFound = lazy(() => import("./pages/PageNotFound/PageNotFound"));
 const Header = lazy(() => import("./components/Header/Header"));
 const Footer = lazy(() => import("./components/Footer/Footer"));
 
@@ -75,6 +76,7 @@ function App() {
             <Route exact path="/:mediaType/:id" element={<Details />} />
             <Route exact path="/search/:query" element={<SearchResult />} />
             <Route exact path="/explore/:mediaType" element={<Explore />} />
+            <Route exact path="*" element={<PageNotFound />} />
           </Routes>
           <Footer/>
         </BrowserRouter>
