@@ -12,7 +12,7 @@ import PlayBtn from "../../../components/PlayBtn/PlayBtn";
 import VideoPopup from "../../../components/VideoPopup/VideoPopup";
 import dayjs from "dayjs";
 
-export default function DetailsBanner({ crew, video}) {
+export default function DetailsBanner({ crew, video }) {
   const { mediaType, id } = useParams();
   const { data, loading } = useFetch(`/${mediaType}/${id}`);
   const { url } = useSelector((state) => state.home);
@@ -67,18 +67,17 @@ export default function DetailsBanner({ crew, video}) {
                             rating={data.data?.vote_average.toFixed(1)}
                           />
                         )}
-                        {video?.key && (
-                          <div
-                            className="playbtn"
-                            onClick={() => {
-                              setShowVideo(true);
-                              setVideoId(video?.key);
-                            }}
-                          >
-                            <PlayBtn />
-                            <span className="text"> Watch Trailer</span>
-                          </div>
-                        )}
+
+                        <div
+                          className="playbtn"
+                          onClick={() => {
+                            setShowVideo(true);
+                            setVideoId(video?.key);
+                          }}
+                        >
+                          <PlayBtn />
+                          <span className="text"> Watch Trailer</span>
+                        </div>
                       </div>
                     )}
                     {data.data?.overview && (
