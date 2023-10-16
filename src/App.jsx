@@ -75,7 +75,6 @@ function App() {
             <Route exact path="/:mediaType/:id" element={<Details />} />
             <Route exact path="/search/:query" element={<SearchResult />} />
             <Route exact path="/explore/:mediaType" element={<Explore />} />
-            <Route exact path="*" element={<PageNotFound />} />
           </Routes>
           <Footer/>
         </BrowserRouter>
