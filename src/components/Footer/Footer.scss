@@ -11,12 +11,16 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: center;
+    }
+    .info{
+        font-size: 15px;
+
     }
     .infoText {
         font-size: 12px;
         line-height: 20px;
-                           // for dim color
-        text-align: center;
+        opacity: 0.8;
         max-width: 800px;
         margin-bottom: 20px;
         @include md {
