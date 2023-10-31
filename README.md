@@ -1,4 +1,4 @@
-# Weblink : https://moviex-sand.vercel.app/
+ ### Weblink : https://moviex-sand.vercel.app/
  
  # Homepage
 <img width="955" alt="image" src="https://github.com/logic-found/moviex/assets/93260606/b9dff860-9eab-4706-950b-7cb5fe47b013"><img width="953" alt="image" src="https://github.com/logic-found/moviex/assets/93260606/450ea10b-66d1-4451-8942-219f313f15b8">
@@ -10,11 +10,6 @@
 
 # Detail Page
 <img width="950" alt="image" src="https://github.com/logic-found/moviex/assets/93260606/1e5d56b9-61d7-476c-aa1a-91741faa098d"><img width="960" alt="image" src="https://github.com/logic-found/moviex/assets/93260606/bd1a90c5-6e3a-468e-8e27-38178032a1d1">
-
-
-
-
-
 
 
 
