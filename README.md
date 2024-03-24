@@ -30,10 +30,6 @@ A movie database app utilizing the TMDB API for listing, filtration, and sorting
 
 
 
-![alt text](image.png)
-
-
-![alt text](moviex2.png)
 
 #### React + Vite
 
