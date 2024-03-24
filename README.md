@@ -27,6 +27,14 @@ A movie database app utilizing the TMDB API for listing, filtration, and sorting
 <img alt="image" src="https://github.com/logic-found/moviex/assets/93260606/39a3f32c-138c-495d-8712-48b616b750dc">
 
 
+
+
+
+![alt text](image.png)
+
+
+![alt text](moviex2.png)
+
 #### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
